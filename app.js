@@ -1,6 +1,6 @@
 const express = require("express");
 const morgan = require("morgan");
-const PORT = 1337;
+const {PORT = 1337} = process.env;
 const posts = require("./postBank");
 
 const app = express();
