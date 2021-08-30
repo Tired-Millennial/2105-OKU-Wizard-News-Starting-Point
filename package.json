@@ -1,7 +1,6 @@
 {
   "name": "wizardnews",
   "version": "1.0.0",
-  "description": "",
   "scripts": {
     "start": "nodemon app.js"
   },
@@ -12,6 +11,16 @@
     "nodemon": "^1.14.7"
   },
   "dependencies": {
-    "express": "^4.16.2"
-  }
+    "express": "^4.16.2",
+    "morgan": "^1.10.0"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tired-Millennial/2105-OKU-Wizard-News-Starting-Point.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tired-Millennial/2105-OKU-Wizard-News-Starting-Point/issues"
+  },
+  "description": ""
 }

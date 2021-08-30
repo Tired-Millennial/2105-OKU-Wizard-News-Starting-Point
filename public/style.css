@@ -71,6 +71,7 @@ textarea {
 
 
 .news-item {
+  background-color: #f6f6ef;
   padding: 0 15px;
 }
 
@@ -80,4 +81,8 @@ textarea {
 
 .news-info {
   margin-left: 40px;
+}
+
+.news {
+  color: #fff;
 }
